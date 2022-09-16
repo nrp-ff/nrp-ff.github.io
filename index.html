@@ -23,6 +23,12 @@
         </h1>
         <img align="right" src="https://github.com/nrp-ff/nrp-ff.github.io/blob/main/WhatsApp%20Image%202022-09-06%20at%205.11.43%20PM.jpeg?raw=true" alt="logo" width="400" height="500">
     </centre>
-    <button type="follow" style="color: red;"><b>insta </b></button>
-    <button type="follow" formaction="https://github.com/nrp-ff/nrp-ff.github.io/blob/main/WhatsApp%20Image%202022-09-06%20at%205.11.43%20PM.jpeg?raw=true">Submit to another page</button>
+    <form action="/action_page.php" method="get">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <button type="submit">Submit</button>
+        <button type="submit" formaction="/action_page2.php">Submit to another page</button>
+      </form>
 </body> 
